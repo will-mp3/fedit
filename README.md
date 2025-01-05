@@ -7,22 +7,28 @@ fedit includes one text file for use, though any text file may be used alongside
 functionality includes:
 
 -h --help option
+
 Print a usage statement to stdout and exit with status 0.
 
 -l, --rotate-left NROTL
+
 Rotate the file NROTL bytes left (with wrap around).
 
 -x, --expand NEXPAND
+
 Expand the file by NEXPAND. The value of these bytes is given by the --value option.
 
 -c, --contract NCONTRACT
+
 Contract (shrink) the file by NCONTRACT bytes. If NCONTRACT > FSIZE, shrink the file to 0 bytes.
 
 -v, --value CHAR
+
 The character value that is used when expanding the file.
 Default: A.
 
 -k, --keep NKEEP
+
 Keep this many bytes (starting from the offset provided by --skip) (and remove all others). In the case of EOF, fewer than NKEEP bytes may be kept.
 
 -s, --skip NSKIP
