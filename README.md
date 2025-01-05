@@ -4,7 +4,7 @@
 
 fedit includes one text file for use, though any text file may be used alongside the code.
 
-functionality includes:
+## functionality includes:
 
 ### -h --help option
 
